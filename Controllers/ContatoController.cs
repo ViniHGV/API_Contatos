@@ -17,9 +17,13 @@ namespace CRUD_API.Controllers
         {
             _context = context;
         }
+        
+        [HttpPost]
         public IActionResult Create(Contato contato)
         {
-
+            _context.Add(contato);
+            _context.SaveChanges();
+            return Ok(contato);
         }
     }
 }
