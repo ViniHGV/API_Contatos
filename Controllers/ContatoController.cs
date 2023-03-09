@@ -69,7 +69,7 @@ namespace CRUD_API.Controllers
             return Ok(contatoBanco);
         }
 
-        [HttpDelete]
+        [HttpDelete("DeletarContato")]
         public IActionResult Deletar(int id)
         {
             var contatoBanco = _context.Contatos.Find(id);
