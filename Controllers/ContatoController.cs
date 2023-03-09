@@ -33,8 +33,13 @@ namespace CRUD_API.Controllers
 
             if(contato == null)
                 return NotFound();
-                
+
             return Ok(contato);
+        }
+
+        public IActionResult Atualizar(int id, Contato contato)
+        {
+            
         }
 
     }
