@@ -23,7 +23,7 @@ namespace CRUD_API.Controllers
         {
             _context.Add(contato);
             _context.SaveChanges();
-            return Ok(contato);
+            return CreatedAtAction(nameof(ObterPorId), new{ id = contato.id}, contato);
         }
 
         [HttpGet("ObterPorID{id}")]

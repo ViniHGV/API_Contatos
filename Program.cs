@@ -31,7 +31,6 @@ namespace CRUD_API
 
             app.UseAuthorization();
 
-
             app.MapControllers();
 
             app.Run();
