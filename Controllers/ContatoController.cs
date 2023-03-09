@@ -26,7 +26,7 @@ namespace CRUD_API.Controllers
             return Ok(contato);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("ObterPorID{id}")]
         public IActionResult ObterPorId(int id)
         {
             var contato = _context.Contatos.Find(id);
