@@ -18,7 +18,7 @@ namespace CRUD_API.Controllers
             _context = context;
         }
         
-        [HttpPost]
+        [HttpPost("CriarContato")]
         public IActionResult Create(Contato contato)
         {
             _context.Add(contato);
