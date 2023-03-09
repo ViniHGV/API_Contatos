@@ -51,7 +51,7 @@ namespace CRUD_API.Controllers
             return Ok(contatos);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("AtualizarContato{id}")]
         public IActionResult Atualizar(int id, Contato contato)
         {
             var contatoBanco = _context.Contatos.Find(id);
