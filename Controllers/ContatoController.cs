@@ -58,7 +58,13 @@ namespace CRUD_API.Controllers
         [HttpDelete]
         public IActionResult Deletar(int id)
         {
+            var contatoBanco = _context.Contatos.Find(id);
 
+            if(contatoBanco == null)
+                return NotFound();
+
+            _context.Contatos.Remove(contatoBanco);
+            return NoContent();
         }
             
                     
