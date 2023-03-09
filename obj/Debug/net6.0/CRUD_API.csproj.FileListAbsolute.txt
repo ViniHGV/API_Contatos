@@ -1,10 +1,6 @@
 C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\appsettings.json
 C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\CRUD_API.exe
-C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\CRUD_API.deps.json
-C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\CRUD_API.runtimeconfig.json
-C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\CRUD_API.dll
-C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\CRUD_API.pdb
 C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -58,5 +54,9 @@ C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\obj\Debug\net6.0\CRUD_API.cspro
 C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\obj\Debug\net6.0\CRUD_API.dll
 C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\obj\Debug\net6.0\refint\CRUD_API.dll
 C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\obj\Debug\net6.0\CRUD_API.pdb
+C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\CRUD_API.deps.json
+C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\CRUD_API.runtimeconfig.json
+C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\CRUD_API.dll
+C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\CRUD_API.pdb
 C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\obj\Debug\net6.0\CRUD_API.genruntimeconfig.cache
 C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\obj\Debug\net6.0\ref\CRUD_API.dll
