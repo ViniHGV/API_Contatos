@@ -44,7 +44,7 @@ namespace CRUD_API.Controllers
             return Ok(contatos);
         }
 
-        [HttpGet]
+        [HttpGet("ListarTodos")]
         public IActionResult ListarTodos()
         {
             var contatos = _context.Contatos.ToList();
