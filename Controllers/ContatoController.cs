@@ -39,8 +39,17 @@ namespace CRUD_API.Controllers
 
         public IActionResult Atualizar(int id, Contato contato)
         {
-            
+            var contatoBanco = _context.Contatos.Find(id);
+
+            if(contatoBanco == null)
+                return NotFound();
+
+            contatoBanco.Nome= contato.Nome;
+            contatoBanco.Telefone = contato.Telefone;
+            contatoBanco.Ativo = contato.Ativo;
         }
+            
+                    
 
     }
 }
