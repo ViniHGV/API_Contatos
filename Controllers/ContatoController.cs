@@ -54,6 +54,12 @@ namespace CRUD_API.Controllers
 
             return Ok(contatoBanco);
         }
+
+        [HttpDelete]
+        public IActionResult Deletar(int id)
+        {
+
+        }
             
                     
 
