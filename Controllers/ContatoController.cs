@@ -44,6 +44,13 @@ namespace CRUD_API.Controllers
             return Ok(contatos);
         }
 
+        [HttpGet]
+        public IActionResult ListarTodos()
+        {
+            var contatos = _context.Contatos.ToList();
+            return Ok(contatos);
+        }
+
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Contato contato)
         {
@@ -74,6 +81,7 @@ namespace CRUD_API.Controllers
             _context.SaveChanges();
             return NoContent();
         }
+
             
                     
 
