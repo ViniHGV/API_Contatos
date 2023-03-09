@@ -79,7 +79,7 @@ namespace CRUD_API.Controllers
 
             _context.Contatos.Remove(contatoBanco);
             _context.SaveChanges();
-            return NoContent();
+            return Ok("Contato Deletado Com Sucesso !");
         }
 
             
