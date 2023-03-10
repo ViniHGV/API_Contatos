@@ -7,6 +7,7 @@ namespace CRUD_API
     {
         public static void Main(string[] args)
         {
+            var _MyCors = "MyCors";
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -18,7 +19,18 @@ namespace CRUD_API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddCors(options => 
+            {
+                options.AddPolicy(name: _MyCors, builder =>
+                {
+                    //builder.WithOrigins("");
+                    builder.SetIsOriginAllowed(origin => new Uri(origin).Host == "localhost")
+                    .AllowAnyHeader().AllowAnyMethod();
+                });
+            });
+
             var app = builder.Build();
+
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -28,6 +40,8 @@ namespace CRUD_API
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors(_MyCors);
 
             app.UseAuthorization();
 

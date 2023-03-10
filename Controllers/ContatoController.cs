@@ -50,7 +50,7 @@ namespace CRUD_API.Controllers
             var contatos = _context.Contatos.Where(x => x.Telefone.Contains(telefone));
             return Ok(contatos);
         }
-
+        
         [HttpGet("ListarTodos")]
         public IActionResult ListarTodos()
         {
