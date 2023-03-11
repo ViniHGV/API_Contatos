@@ -69,6 +69,7 @@ namespace CRUD_API.Controllers
             contatoBanco.Nome= contato.Nome;
             contatoBanco.Telefone = contato.Telefone;
             contatoBanco.Ativo = contato.Ativo;
+            contatoBanco.Url_Img = contato.Url_Img;
 
             _context.Contatos.Update(contatoBanco);
             _context.SaveChanges();

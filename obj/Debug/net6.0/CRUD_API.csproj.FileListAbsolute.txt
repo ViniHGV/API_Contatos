@@ -60,3 +60,9 @@ C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\CRUD_API.dll
 C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\CRUD_API.pdb
 C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\obj\Debug\net6.0\CRUD_API.genruntimeconfig.cache
 C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\obj\Debug\net6.0\ref\CRUD_API.dll
+C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\System.Web.Cors.dll
+C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\System.Web.Http.Cors.dll
+C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Vinicius\source\repos\CRUD_API\CRUD_API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
